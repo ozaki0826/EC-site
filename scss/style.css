@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    width: 1266px;
+    margin: 0 auto;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+
+.header-area{
+    display: flex;
+    position: relative;
+
+    margin     : auto;
+    max-width  : 1920px;
+    height     : 110px;
+    /* ドット（水玉）模様のCSS */
+    background-color   : #ffffff;
+    background-image   : radial-gradient(#000000 19%, transparent 22%),
+        radial-gradient(#000000 19%, transparent 22%);
+    background-position: 0 0, 6px 6px;
+    background-size    : 12px 12px;
+}
+
+
+.header-title{
+    position: fixed;
+    z-index: 99;
+    top: 30px;
+    left: 5%;
+}
+
+.nav-area{
+    
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    z-index: 88;
+    top: 50px;
+    right: 5%;
+    width: auto;
+    height: auto;
+    position: fixed;
+}
+
+.nav-item{
+    margin-right: 20px;
+    width: 100%;
+
+}
+
+.about-area{
+    text-align: center;
+}
+
+.profile-img{
+    margin-top: 80px;
+}
+
+.profile-name{
+    padding-top: 50px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 120px;
+    border-bottom: solid 3px #5D5E5D;
+}
+
+.about-content{
+    word-wrap: normal;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.recomend-area{
+    background-image: url(/img/back-img.png);
+    padding-top: 70px;
+}
+
+.recomend-title{
+    text-align: center;
+    max-width: 100%;
+    padding-top: 30px;
+}
+
+.recomend-img{
+    width: 30%;
+}
+
+.managa-area2{
+    border:3px solid black;
+    padding: 20px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+
+    background-color: #FFF;
+    background-image: linear-gradient( transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06)), linear-gradient( 90deg, transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06) );
+    background-size: 32px 32px;
+    background-repeat: repeat;
+}
+
+.manga-img2{
+    transition: 0.5s ;
+    display: inline-block;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.manga-img2:hover{
+    transition: 0.5s ;
+    display: inline-block;
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.manga-title2{
+    border: 3px solid black;
+    background: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px 10px 6px;
+    text-align: center;
+}
+
+.span2{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.managa-description{
+    width: 50%;
+    margin: 0 auto;
+    vertical-align: middle; /* 「vertical-align」を指定してもテキストは縦方向中央揃いにならない */
+    text-align: center;
+}
+
+.manga-word{
+    font-size: 20px;
+    margin-top: 45px;
+    border: 3px solid black;
+    padding: 30px;
+
+    /* ドット（水玉）模様のCSS */
+    background-color   : rgba(153, 153, 153, 0.41);
+    background-image   : radial-gradient(rgba(255, 255, 255, 0.78) 28%, transparent 28%),
+        radial-gradient(rgba(255, 255, 255, 0.78) 28%, transparent 28%);
+    background-position: 0 0, 5px 5px;
+    background-size    : 10px 10px;
+}
+
+.manga-word2.nomal{
+    word-wrap: break-word;
+}
+
+.manga-word2.break{
+    word-wrap: break-word;
+}
+
+.word2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.shop-area{
+    padding-top: 300px;
+    text-align: center;
+}
+
+.shop-title{
+    text-align: center;
+}
+
+.shop-link{
+    width: auto;
+}
+
+.main-content{
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+.link-item{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.link-item:hover{
+    opacity: 0.7;
+    transition:all 0.5s ease;
+}
+
+.campaign-area{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.campaign-title{
+    padding-top: 100px;
+}
+
+.campaign-img{
+    width: auto;
+    margin-top: 80px;
+    display: inline-block
+}
+
+.campaign-img:hover{
+    opacity: 0.7;
+    transition:all 0.5s ease;
+}
+
+.footer-area{
+
+    margin     : 0 auto;
+    max-width  : auto;
+    height     : 500px;
+    /* ドット（水玉）模様のCSS */
+    background-color   : #c1c1c1;
+    background-image   : radial-gradient(#ffffff 15%, transparent 18%),
+        radial-gradient(#ffffff 15%, transparent 18%);
+    background-position: 0 0, 7px 7px;
+    background-size    : 14px 14px;
+}
+
+.icon-list{
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+
+}
+
+
+.sns-title{
+    
+}
+
+.sns-area{
+    
+}
+
+.icon-item{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+

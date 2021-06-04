@@ -2,46 +2,115 @@
 <html lang="">
 <head>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <title>Book Tree</title>
 	<meta name="Author" content=""/>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="scss/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="scss/style.css">
 </head>
 <body>
-<header>
-   <div class="top-area">
-    <div class="top-img"><img src="img/site-top.png" alt="" height="100%" width="100%"></div>
-    <div class="logo"><img src="img/logo.png" alt=""></div>
-    </div>
-</header>
-<main>
-    <section>
-        <h1 class="nigaoe"><img src="img/nigaoe.png" alt=""></h1>
-        <p class="name">ozaki</p>
-        <p class="site-Explanation">このサイトはサイト主がただただおすすめしたいジャンプコミックを沢山の人に手に取ってほしいがために紹介するサイトです。</p>
-    </section>
-    <section class="reccomend">
-        <h2 class="reccomend-title"><img src="img/osusume.png" alt=""></h2>
-        <!-- 後から吹き出し入れる↓ -->
-        <p><img src="" alt=""></p>
-        <secton class="comic-area">
-            <h3 class="comic-title">ONEPUCH-MAN</h3>
-            <p><img src="img/comic-area.png" alt=""></p>
-            <!-- ここにコミックのがぞうを入れる↓ -->
-            <p class="comic-img"></p>
-            <p class="comic-Explanation">ひたすらに<span class="span">爽快感!</span>タイトルからも分かるとおりなんでも"ワンパン"で倒してしまう趣味でヒーローをやっている主人公サイタマ。強すぎてつまらないのでは？と思った方でも一度は読んでほしい横道バトル漫画！</p>
-        </secton>
-        <section class="comic-area">
-           <h3 class="comic-title">Dr.STONE</h3>
-           <p><img src="img/comic-area.png" alt=""></p>
-            <!-- ここにコミックのがぞうを入れる↓ -->
-            <p><img src="" alt=""></p>
-            <p class="comic-Explanation">突如世界が謎の光に包まれ人類が全員石化してしまう、主人公の化学大好き高校生石神千空が起きたらそこは<span class="span">3200年後の世界だった！</span>現代の科学知識を駆使し生き残る科学サバイバル漫画！</p>
-        </section>
-    </section>
-</main>
+                <header>
+                    <section class="header-area">
+                       <div class="nav-area" >
+                           <h1 class="header-title"><a href="#"><img src="img/site-logo.png" alt="" ></a></h1>
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#section1"><img src="img/nav1.png" alt=""></a></li>
+                            <li class="nav-item"><a href="#section2"><img src="img/nav2.png" alt=""></a></li>
+                            <li class="nav-item"><a href="#section3"><img src="img/nav3.png" alt=""></a></li>
+                            <li class="nav-item"><a href=""><img src="img/nav4.png" alt=""></a></li>
+                            <li class="nav-item"><a href="/contact/index.html"><img src="img/nav5.png" alt=""></a></li>
+                        </ul>
+                        </div>
+                    </section>
+                    
+                    <div class="slider">
+                        <p><img src="img/top-img1.jpg" alt="" height="100%" width="100%"></p>
+                        <p><img src="img/top-img1.jpg" alt="" height="100%" width="100%"></p>
+                        <p><img src="img/top-img1.jpg" alt="" height="100%" width="100%"></p>
+                    </div>
+
+                </header>
+                
+                <article>
+                
+                <main>
 
 
+                    <div class="about-area">
+                        <!-- ここに顔の画像 -->
+                        <p class="profile-img"><img src="img/nigaoie.png" alt=""></p>
+                        <p class="profile-name">ozaki</p>
+                        <p class="about-content">このサイトはサイト主がただただおすすめしたい<br> ジャンプコミックをたくさんのひとに手にとって<br> ほしいがために紹介するサイトです。</p>
+                    </div>
+                                        
+                    <section class="recomend-area" >
 
-</body>
-</html>
+                        <h2 id="section1" class="recomend-title"><img class="recomend-img" src="img/recomend-img.png" alt=""></h2>
+
+                        <section class="managa-area2">
+                            <h3 class="manga-img2"><img src="img/managa-img.jpg" alt=""></h3>
+                            <div class="managa-description">
+                            <p class="manga-title2">ONEPUNCH-MAN<span class="span2">ワンパンマン</span></p>
+                            <p class="manga-word">
+                            ひたすらに<span class="word2">爽快感!</span>タイトルからも分かるようになんでもワンパンで片付けてしまう最強のヒーロー"サイタマ"強すぎてつまらないのでは？と思った方も一度読みはいめたら止まらないある意味王道バトル漫画!!
+                            </p>
+                            </div>
+                        </section>
+
+                        <section class="managa-area2">
+                            <h3 class="manga-img2"><img src="img/manbga-img2.jpg" alt=""></h3>
+                            <div class="managa-description">
+                                <p class="manga-title2">Dr.stone<span class="span2">ドクターストーン</span></p>
+                                <p class="manga-word">
+                                    突如世界が謎の光に光に包まれ人類が全員石化してしまう。主人公の科学大好き高校生高校生"石上千空"が起きたらそこは...<br><span class="word2">3200年後の世界だった!</span><br>現代科学駆使し生き残る科学サバイバル漫画!
+                                </p>
+                            </div>
+                        </section>
+
+                        <section class="managa-area2">
+                            <h3 class="manga-img2"><img src="img/managa-img3.jpg" alt=""></h3>
+                            <div class="managa-description">
+                                <p class="manga-title2">呪術廻戦<span class="span2">じゅじゅつかいせん</span></p>
+                                <p class="manga-word">
+                                    類稀な身体能力を持っているオカルト部に所属している主人公"虎杖悠二"。ある事件をきっかけに学校にある「特級呪物」の封印を解いてしまい、化物の「呪霊」と戦うことになるが...芥見下々が描くダークファンタジーバトル漫画
+                                </p>
+                            </div>
+                        </section>
+
+                    </section>
+
+                    <section id="section2" class="shop-area">
+                        <h2 class="shop-title"><img src="img/shop-title.jpg" alt="" height="100%" width="30%"></h2>
+                        <div class="shop-link">
+                            <div class="main-content">
+                                <p class="link-item"><a href="/shop/index.html"><img src="img/link-battle.jpg" alt="" height="100%" width="70%"></a></p>
+                                <p class="link-item"><a href=""><img src="img/link-comedy.jpg" alt="" height="100%" width="70%"></a></p>
+                            </div>
+                            <p class="link-item"><a href=""><img src="img/link-other.jpg" alt="" height="100%" width="70%"></a></p>
+                        </div>
+                    </section>
+
+                    <section id="section3" class="campaign-area">
+                        <h2 class="campaign-title"><img src="img/campaign-title.jpg" alt="" height="100%" width="30%"></h2>
+                        <p class="campaign-img"><a href="/campaign/"><img src="img/link-campaign.jpg" alt="" height="100%" width="90%"></a></p>
+                    </section>
+                </main>
+                    </article>
+
+                <footer class="footer-area">
+                    <div class="sns-area">
+                        <p class="sns-title"></p>
+                        <div class="icon-list">
+                            <p class="icon-item"><a href=""><img src="img/fb-icon.png" alt=""></a></p>
+                            <p class="icon-item"><a href=""><img src="img/twi-icon.png" alt=""></a></p>
+                            <p class="icon-item"><a href=""><img src="img/insta-icon.png" alt=""></a></p>
+                        </div>
+                    </div>
+                </footer>    
+                <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+                <script type="text/javascript" src="js/slick.min.js"></script>
+                <script src="js/common.js"></script>
+            </body>
+            </html>
+
+
